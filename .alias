@@ -1,0 +1,7 @@
+alias ls='ls --color=auto'
+alias l='ls --color=auto -lha'
+alias curltime="curl -w \"@$HOME/.curl-format.txt\""
+alias vim="nvim"
+alias vi="nvim"
+alias v="nvim"
+alias ag="ag --path-to-ignore ~/.ignore"

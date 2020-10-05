@@ -1,0 +1,35 @@
+# restart The daemon
+super + Escape
+	pkill -USR1 -x sxhkd
+
+super + shift + Return
+	alacritty
+
+#SHUTDON RESTART
+super + shift + x
+	/home/shaw/.scripts/prompt "Are you sure you want to shutdown?" "shutdown now"
+
+super + shift + z
+	/home/shaw/.scripts/prompt "Are you sure you want to restart?" "reboot"
+#program launcher
+super + o
+	rofi -show run
+
+# Volume up and down
+XF86Audio{Lower,Raise}Volume
+	pamixer {-d,-i} 5
+
+# mute
+XF86AudioMute
+	pamixer --toggle-mute
+
+# Brightness
+XF86MonBrightness{Up,Down}
+	/home/shaw/.scripts/brightness {+,-}5
+
+
+Print
+    flameshot full -c -p ~/Pictures/Screenshots/
+
+super + Print
+    flameshot gui
