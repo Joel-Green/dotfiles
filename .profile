@@ -8,6 +8,7 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 
+/home/shaw/.scripts/switchToDockedAutorandr
 /home/shaw/.scripts/battery_notify &
 # stalonetray &
 sxhkd &
