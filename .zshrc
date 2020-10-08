@@ -39,7 +39,5 @@ export SDKMAN_DIR="/home/shaw/.sdkman"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-alias gitdotfiles='/usr/bin/git --git-dir=$HOME/.gitdotfiles/ --work-tree=$HOME'
-gitdotfiles config --local status.showUntrackedFiles no
 
 
