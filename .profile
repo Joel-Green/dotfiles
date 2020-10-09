@@ -7,12 +7,17 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
+
 
 /home/shaw/.scripts/switchToDockedAutorandr
 /home/shaw/.scripts/battery_notify &
 # stalonetray &
 sxhkd &
 picom &
+flameshot &
 
 # feh --bg-fill /home/shaw/Downloads/wallpaper_redcirclesun.jpg
 feh --bg-fill /home/shaw/Downloads/wallpaper_out_of_time.jpg
