@@ -1,3 +1,7 @@
+# unlock key ring
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
+
 export PATH=$PATH:$HOME/.npm-global/bin:$HOME/.scripts:/home/shaw/.emacs.d/bin:$HOME/.customBin
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 

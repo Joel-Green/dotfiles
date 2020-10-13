@@ -16,9 +16,9 @@ compinit
 export FZF_DEFAULT_COMMAND='rg --files --hidden'
 export FZF_CTRL_T_COMMAND='rg --files --hidden'
 export FZF_ALT_C_COMMAND='rg --hidden --files --null | xargs -0 dirname | uniq'
-export FZF_DEFAULT_OPTS='--height 96% --reverse'
-export FZF_CTRL_T_OPTS='--preview "cat {}"'
-export FZF_DEFAULT_OPTS='--preview "ls -a {}"'
+export FZF_DEFAULT_OPTS='--height 100% --reverse --preview "cat {}" --preview-window=right:50%:sharp'
+export FZF_CTRL_T_OPTS='--height 100% --reverse --preview "cat {}" --preview-window=right:50%:sharp'
+export FZF_ALT_C_OPTS='--preview "ls {}"'
 
 fpath+=$HOME/.zsh/pure
 
