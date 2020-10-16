@@ -31,5 +31,5 @@ XF86MonBrightness{Up,Down}
 Print
     flameshot full -c -p ~/Pictures/Screenshots/
 
-super + Print
+super + shift + s
     flameshot gui
