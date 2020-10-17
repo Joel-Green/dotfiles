@@ -4,3 +4,9 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/Joel-Green/nvimconfig
+[submodule ".wallpapers"]
+	path = .wallpapers
+	url = https://github.com/Joel-Green/wallpapers.git
+[submodule ".config/awesome/battery-widget"]
+	path = .config/awesome/battery-widget
+	url = https://github.com/deficient/battery-widget.git

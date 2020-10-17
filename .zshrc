@@ -16,8 +16,8 @@ compinit
 export FZF_DEFAULT_COMMAND='rg --files --hidden'
 export FZF_CTRL_T_COMMAND='rg --files --hidden'
 export FZF_ALT_C_COMMAND='rg --hidden --files --null | xargs -0 dirname | uniq'
-export FZF_DEFAULT_OPTS='--height 100% --reverse --preview "cat {}" --preview-window=right:50%:sharp'
-export FZF_CTRL_T_OPTS='--height 100% --reverse --preview "cat {}" --preview-window=right:50%:sharp'
+export FZF_DEFAULT_OPTS='--height 100% --reverse --preview "cat {}" --preview-window=right:50%'
+export FZF_CTRL_T_OPTS='--height 100% --reverse --preview "cat {}" --preview-window=right:50%'
 export FZF_ALT_C_OPTS='--preview "ls {}"'
 
 fpath+=$HOME/.zsh/pure
@@ -30,7 +30,8 @@ prompt pure
 
 source /home/shaw/.alias
 
-	[[ -s /home/shaw/.autojump/etc/profile.d/autojump.sh ]] && source /home/shaw/.autojump/etc/profile.d/autojump.sh
+	# [[ -s /home/shaw/.autojump/etc/profile.d/autojump.sh ]] && source /home/shaw/.autojump/etc/profile.d/autojump.sh
+    [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/shaw/.sdkman"
