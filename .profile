@@ -37,6 +37,8 @@ feh --bg-fill /home/shaw/.wallpapers/wallpaper_aenami_witcher.jpg
 eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 export SSH_AUTH_SOCK
 
+xmodmap ~/.Xmodmap
+
 # only for dwm
 # /home/shaw/.scripts/dwmstatus_loop
 
