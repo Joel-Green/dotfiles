@@ -1,6 +1,7 @@
 # Lines configured by zsh-newuser-install
 #
 
+export AUTOJUMP_IGNORE_CASE=1
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000

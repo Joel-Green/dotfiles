@@ -16,12 +16,13 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-export VISUAL=nvim
+export VISUAL=emacs
 export EDITOR="$VISUAL"
 
+export XDG_CONFIG_HOME=$HOME/.config
 
 
-/home/shaw/.scripts/switchToDockedAutorandr
+# /home/shaw/.scripts/switchToDockedAutorandr
 /home/shaw/.scripts/battery_notify &
 # stalonetray &
 sxhkd &
