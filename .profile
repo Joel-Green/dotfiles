@@ -1,3 +1,4 @@
+#!/bin/sh
 # unlock key ring
 eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 export SSH_AUTH_SOCK
@@ -38,8 +39,13 @@ feh --bg-fill /home/shaw/.wallpapers/wallpaper_aenami_witcher.jpg
 eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 export SSH_AUTH_SOCK
 
-xmodmap ~/.Xmodmap
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 
 # only for dwm
 # /home/shaw/.scripts/dwmstatus_loop
 
+
+export PATH="$HOME/.cargo/bin:$PATH"
