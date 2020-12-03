@@ -18,7 +18,7 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export VISUAL=emacs
-export EDITOR="$VISUAL"
+export EDITOR=nvim
 
 export XDG_CONFIG_HOME=$HOME/.config
 
@@ -48,4 +48,4 @@ export LANG=en_US.UTF-8
 # /home/shaw/.scripts/dwmstatus_loop
 
 
-export PATH="$HOME/.cargo/bin:$PATH"
+source "$HOME/.cargo/env"
