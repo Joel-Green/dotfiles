@@ -85,8 +85,8 @@ plugins=(
     yarn
     ng
     rustup
-    sudo
-    npm
+    fzf
+    vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -179,3 +179,5 @@ elif type compctl &>/dev/null; then
   compctl -K _npm_completion npm
 fi
 ###-end-npm-completion-###
+#
+bindkey "^R" fzf-history-widget
