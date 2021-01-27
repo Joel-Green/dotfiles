@@ -204,6 +204,7 @@ local BAT0 = battery_widget {
 	adapter = "BAT0", 
 	ac = "AC0",
 	widget_text = "${AC_BAT}${color_on}${percent}%${color_off}",
+    timer = 2,
 }
     
     -- Add widgets to the wibox

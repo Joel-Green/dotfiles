@@ -7,6 +7,7 @@ alias l='ls --color=auto -lha'
 alias curltime="curl -w \"@$HOME/.curl-format.txt\""
 alias vim="nvim"
 alias vi="nvim"
-alias v="nvim"
+alias v="neovide"
+alias yay="paru"
 alias ag="ag --path-to-ignore ~/.ignore"
 alias gpgImportKey="gpg --keyserver pool.sks-keyservers.net --recv-keys"

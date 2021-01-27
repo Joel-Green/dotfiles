@@ -80,10 +80,10 @@ plugins=(
     git-auto-fetch
     emacs
     git-prompt
-    npx
+    # npx
     ripgrep
     yarn
-    ng
+    # ng
     rustup
     fzf
     vi-mode
